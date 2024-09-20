@@ -34,7 +34,7 @@ This is a **Clock App** built using **React**, with **Howler.js** for handling r
    ```bash
    npm start
    ```
-![Alt text for your image](/clock/blob/FCC/public/sona.jpg)
+![Alt text for your image](public/sona.jpg)
 
 ## Deployment
 
