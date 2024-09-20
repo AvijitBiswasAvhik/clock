@@ -1,0 +1,83 @@
+.App {
+  background-color: #1E555C;
+  height: 100vh;
+  user-select: none;
+}
+.clock {
+  min-width: 360px;
+  max-width: 500px;
+  padding: 5px;
+}
+.button-increment{
+  background-color: transparent;
+  border: 0;
+}
+.breack-controll{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  width: 100px;
+}
+.session-controll{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  width: 100px;
+  
+}
+.timer{
+  width: 220px;
+  height: 220px;
+  border: 8px solid #13353A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 100%;
+}
+#time-left{
+  font-size: 65px;
+  line-height: 90px;
+}
+#timer-label{
+  font-size: 25px;
+  text-align: center;
+  line-height: 30px;
+}
+.timer-control{
+  margin-top: 10px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
+  position: relative;
+}
+#start_stop{
+  position: absolute;
+  left: 0;
+}
+#reset{
+  position: absolute;
+  right: 0;
+}
+.controll{
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: larger;
+}
+@keyframes roater {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{transform: rotate(360deg);}
+}
+.reseter-start{
+  animation: roater 1s ease-in-out;
+}
+.reset-start{
+  animation: roater 1s ease-in-out;
+}
